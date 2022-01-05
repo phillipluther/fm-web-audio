@@ -1,3 +1,11 @@
+/**
+ * super-simple expression of playing a sound file; an MP3 gets piped into the audio context and
+ * then connected to a destination.
+ * 
+ * useful for playing tracks/long files
+ * noticeable lag on hitting "play" 
+ */
+
 let audioContext;
 let audioEl;
 
